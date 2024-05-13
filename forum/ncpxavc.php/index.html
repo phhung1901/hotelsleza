@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, user-scalable=no" name="viewport"/>
+<title>java rectangle2d example</title>
+<link href="//fonts.googleapis.com" rel="dns-prefetch"/>
+<link href="//s.w.org" rel="dns-prefetch"/>
+
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,900,700,300,300italic" id="google-fonts-roboto-css" media="all" rel="stylesheet" type="text/css"/>
+<link href="https://fonts.googleapis.com/css?family=Raleway:300" id="google-fonts-raleway-css" media="all" rel="stylesheet" type="text/css"/>
+<style id="blesk-theme-style-css" media="all" rel="stylesheet" type="text/css">html,body,div,span,h1,h2,a,i,ul,li,form,footer,header,nav{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}footer,header,nav{display:block}body{line-height:1}ul{list-style:none}a{text-decoration:none}*{margin:0;padding:0}input:focus{outline:none}footer .top-footer .center{box-sizing:border-box}a,.bottom-header .menunav,.bottom-header .search .open-search,body .bottom-header #blesk-search.search i.close-search,.bottom-header .search .search-input,.bottom-header .search .search-input .search-btn{-webkit-transition:all 0.3s;transition:all 0.3s}body{background-color:#fff;color:#a6a6a6;font-size:15px;line-height:1.6;font-family:'Roboto', sans-serif;font-weight:300;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%}.wrapper{margin:0 auto;max-width:1110px}h1,h2{font-weight:700;color:#202020}h1 a,h2 a{color:#202020}.cf:before,.cf:after{content:" ";display:table}.cf:after{clear:both}.cf{*zoom:1}a{color:#a6a6a6;text-decoration:none;outline:0}a:hover,a:focus{color:#dc0844}.overflow-h{overflow:hidden}.center-header{padding:42px 0}.bottom-header{background-color:#dc0844;color:#fff;position:relative}.bottom-header .menunav{display:block;width:98%;z-index:99;float:left;height:88px}.bottom-header .menunav .menu{display:inline-block;height:88px}.bottom-header .menunav .menu>li{min-height:88px;line-height:88px}.bottom-header .menunav .menu>li a{padding-right:45px}.bottom-header .menunav ul li{float:left}.bottom-header .menunav ul li a{font-size:18px;font-weight:500}.bottom-header .open-menu{float:left;padding:31px 0}.bottom-header .open-menu .open{font-size:22px;line-height:26px;cursor:pointer;display:none}.bottom-header .open-menu .close{font-size:22px;line-height:22px;cursor:pointer;display:none}.bottom-header .search{float:right;margin:32px 0;position:relative}.bottom-header .search .open-search,.bottom-header .search .close-search{font-size:18px;cursor:pointer}.bottom-header .search .open-search:hover,.bottom-header .search .close-search:hover{color:#202020}body .bottom-header #blesk-search.search .close-search{display:none}.bottom-header .search .search-input{position:absolute;top:0;bottom:-150px;right:-10px;margin:auto;width:220px;height:70px;padding:20px 25px;background-color:#dc0844;opacity:0;z-index:-1}.bottom-header .search .search-input input[type="search"]{width:100%;height:30px;padding:0 30px 0 10px;margin-top:20px;font-family:'Roboto', sans-serif;font-size:15px;color:#202020;border:none;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none}.bottom-header .search .search-input input[type="submit"]{background:transparent;width:20px;height:20px;border:none;border-radius:0;-webkit-appearance:none;-moz-appearance:none;appearance:none;cursor:pointer;z-index:2;position:absolute;right:30px;top:45px}.bottom-header .search .search-input .search-btn{position:absolute;right:30px;top:45px;width:20px;height:20px;text-align:center;line-height:20px;color:#dc0844}footer .top-footer{border-top:1px solid #e1e1e1;padding:55px 0}footer .top-footer .center{width:51.36%;float:left;border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;padding:0 80px;text-align:center}footer .top-footer .center .logo{margin-bottom:30px;display:inline-block}footer .bottom-footer{border-top:1px solid #e1e1e1;padding:37px 0;text-align:center}@media only screen and (max-width: 1180px){.wrapper{width:94%}.center-header{text-align:center}}@media only screen and (max-width: 1024px){.bottom-header .menunav{display:none;height:auto}.bottom-header .menunav .menu>li{min-height:50px;line-height:50px}.bottom-header .menunav li{border-bottom:1px solid rgba(255,255,255,0.1)}.bottom-header .menunav li:last-child{border-bottom:none}.bottom-header .menunav ul{position:relative !important;display:block !important;width:100% !important;height:auto !important;left:0 !important;top:0 !important}.bottom-header .menunav ul li{width:100%;left:0}.bottom-header .search{top:0;position:absolute;right:3%}.bottom-header .open-menu .open{display:block}footer .top-footer .center{padding:0 30px}}@media only screen and (max-width: 800px){.bottom-header .open-menu{padding:20px 0}.bottom-header .search{margin:21px 0}.bottom-header .search .search-input{bottom:0;height:30px;padding:18px;right:0;left:100%}.bottom-header .search .search-input input[type="search"]{margin-top:0}.bottom-header .search .search-input input[type="submit"],.bottom-header .search .search-input .search-btn{top:24px;right:24px}}@media only screen and (max-width: 560px){footer .top-footer .center{width:100%;padding:0 20px;border:none}}@media only screen and (max-width: 360px){.bottom-header .search .search-input{padding:18px 10px}.bottom-header .search .search-input input[type="submit"],.bottom-header .search .search-input .search-btn{right:15px}}
+/*# sourceMappingURL=main.css.map */
+</style>
+
+</head>
+<body class="">
+<div class="overflow-h">
+<header>
+<div class="center-header">
+<div class="wrapper cf">
+<h1><a href="#">java rectangle2d example</a></h1><h2><a href="#">Just another WordPress site</a></h2>
+</div>
+</div>
+<div class="bottom-header">
+<div class="wrapper cf">
+<div class="open-menu">
+<span class="fa fa-bars open"></span>
+<span class="fa fa-times close"></span>
+</div>
+<nav class="menunav"><ul class="menu" id="menu-ddd"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-11" id="menu-item-11"><a href="#">Home</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-12" id="menu-item-12"><a href="#">Casinos</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-13" id="menu-item-13"><a href="#">Online</a></li>
+<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-14" id="menu-item-14"><a href="#">Guide</a></li>
+</ul></nav> <div class="search" id="blesk-search">
+<i class="open-search fa fa-search"></i>
+<i class="close-search fa fa-times"></i>
+<div class="search-input">
+<form action="#">
+<input name="s" placeholder="Search " type="search" value=""/>
+<input type="submit" value="Search"/>
+<i class="search-btn fa fa-search"></i>
+</form>
+</div>
+</div> </div>
+</div>
+</header>
+Currently, I use Rectangle and Rectangle2D (Rectangle2D.Double) interchange. Java. ... transforming Rectangle2D java. You can vote up the examples you like. ... import java.awt.geom.Rectangle2D; The class that is used to draw rectangles and squares is the Rectangle2D. Rectangle2D(Point2D p1, Point2D p2) Creates a This Java Code Snippet Describes createScreenCapture(Rectangle screenRect) In Robot 1: import java.awt.Shape; 2: import java.awt.geom.Rectangle2D; 3: import java.util.Enumeration; 4:... 5: if (firstOne!= null){ 6: Rectangle2D b =((Shape) firstOne). ... To draw a rectangle we use the Rectangle2D.Double static-inner class. You are here: Home Java ProgrammingJava 2D Example. This page provides Java code examples for java.awt.geom.Rectangle2D. ... import java.awt. getBounds2D (); 7: b.setFrame (b.getX ()+5., b.getY ()+5., b.getWidth ()-10., b.getHeight ()-10. Java Tutorials lesson shows how to use the Graphics2D class to draw graphic primitives, arbitrary shapes, and to display graphics with outline and fill styles Packages that use Rectangle2D; java.awt: Contains all of the classes for creating user interfaces and for painting graphics and images. This Calculate Rectangle Area using Java Example shows how to calculate area of Rectangle using it's length and width. java packages  java.awt: Java Example Program/ Sample Source Code. Following is the declaration for java.awt.Arc2D class: ... (Rectangle2D r) ... Arc2D Example. ); 8:... 9: int oc = b.outcode (x, y); 10: switch (oc){ 11:... 12: case Rectangle2D.  You can vote up the examples you like. How do I draw a rectangle in Java 2D? The Rectangle2D class describes a rectangle defined by a location (x,y) and dimension (w x h). Rectangle2D.Double (javadocexamples.COM JAVA DOC BY EXAMPLES),your best reference for JAVA programing,you can get over 100,000 example code at here The Rectangle2D class describes a rectangle defined by a location {@code (x,y)} and dimension {@code (w x h)}. Class Rectangle2D.Double java.lang.Object java.awt.geom.RectangularShape java.awt.geom.Rectangle2D java.awt.geom.Rectangle2D ... public static class Rectangle2D.Double add public void add(double newx, double newy) Adds a point, specified by the double precision arguments newx and newy, to this Rectangle2D. Demos and Usage of java.awt.geom.Rectangle2D.setRect(Rectangle2D r) Java Examples>>java.awt>>java.awt.geom>>java.awt.geom.Rectangle2D>>setRect(Rectangle2D r) How do I draw a rectangle in Java 2D? For example: The examples are extracted from open source Java projects from GitHub. Area (javadocexamples.COM JAVA DOC BY EXAMPLES),your best reference for JAVA programing,you can get over 100,000 example code at here Drawing Rectangles in double coordinates To draw a rectangle in double coordinates, create a new instance of the Rectangle2D.Double class. ... A complete example is cited here. The following are Jave code examples for showing how to use setRect() of the java.awt.geom.Rectangle2D class. Java. java.awt.font The following are Jave code examples for showing how to use intersect() of the java.awt.geom.Rectangle2D class. Rectangle2D() Empty constructor (size and position zero) Rectangle2D(double x0, double y0, double w, double h) Main constructor, specifying position of reference corner and rectangle dimensions. 
+				<footer>
+<div class="top-footer">
+<div class="wrapper cf">
+<div class="center" style="float: none; border: none; padding: 0; margin: 0 auto;"><a alt="Just another WordPress site" class="logo" href="#" title="java rectangle2d example"><h1>java rectangle2d example</h1><h2>Just another WordPress site</h2></a></div> </div>
+</div>
+<div class="bottom-footer">
+<div class="wrapper cf">
+<span class="copyright">
+						Copyright  2017, java rectangle2d example. All Rights Reserved.</span>
+</div>
+</div>
+</footer>
+</div>
+
+
+
+</body>
+</html>
